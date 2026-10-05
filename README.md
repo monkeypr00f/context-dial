@@ -8,10 +8,14 @@ Contextual Controls si può installare e usare senza questo dispositivo.
 
 ## Compatibilità
 
-Il firmware richiede le aggiunte Context Dial integrate localmente sulla release
+Il firmware richiede le aggiunte Context Dial basate sulla release
 Contextual Controls 0.10.5: tipo LIGHT, input adjust e sensore feedback.
 La sola release pubblicata 0.10.5 non include tutte queste aggiunte.
-Per ora usare il componente HA del merge associato, non una versione precedente.
+Le aggiunte sono nella [PR #7](https://github.com/monkeypr00f/contextualcontrols/pull/7).
+Finché non è integrata e rilasciata, usare il componente HA del ramo
+[`codex/separate-context-dial`](https://github.com/monkeypr00f/contextualcontrols/tree/codex/separate-context-dial),
+non la sola release precedente. Il Dial è pubblicato separatamente e non viene
+installato da HACS insieme all'integrazione.
 L'integrazione richiede Home Assistant Core 2026.9.3 e Python 3.14.2 o successivi.
 
 ESPHome verificato: 2026.9.1. La configurazione e la generazione C++ passano;
