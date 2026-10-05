@@ -1,5 +1,5 @@
 substitutions:
-  # The only values normally changed for each physical terminal.
+  # Set these identifiers for each physical terminal; HA owns area mapping.
   device_name: cc-cucina
   friendly_name: Context Dial Cucina
   terminal_id: cc_cucina
