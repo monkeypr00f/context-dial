@@ -8,13 +8,10 @@ Contextual Controls si può installare e usare senza questo dispositivo.
 
 ## Compatibilità
 
-Il firmware richiede le aggiunte Context Dial basate sulla release
-Contextual Controls 0.10.5: tipo LIGHT, input adjust e sensore feedback.
-La sola release pubblicata 0.10.5 non include tutte queste aggiunte.
-Le aggiunte sono nella [PR #7](https://github.com/monkeypr00f/contextualcontrols/pull/7).
-Finché non è integrata e rilasciata, usare il componente HA del ramo
-[`codex/separate-context-dial`](https://github.com/monkeypr00f/contextualcontrols/tree/codex/separate-context-dial),
-non la sola release precedente. Il Dial è pubblicato separatamente e non viene
+Il firmware richiede [Contextual Controls 0.10.6](https://github.com/monkeypr00f/contextualcontrols/releases/tag/v0.10.6):
+tipo LIGHT, input adjust e sensore feedback. Aggiornare l'integrazione da HACS
+e riavviare Home Assistant. La sola release 0.10.5 non include tutte queste
+aggiunte. Il Dial è pubblicato separatamente e non viene
 installato da HACS insieme all'integrazione.
 L'integrazione richiede Home Assistant Core 2026.9.3 e Python 3.14.2 o successivi.
 
